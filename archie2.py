@@ -12,7 +12,7 @@ async def on_ready():
 	print("Name: {}".format(client.user.name))
 	print("ID: {}".format(client.user.id))
 
-@client.command(pass context=True)
+@client.command(pass_context=True)
 async def ping(ctx):
 	await client.say("Pong!")
 
