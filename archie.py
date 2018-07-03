@@ -5,6 +5,7 @@ import asyncio
 import chalk
 
 bot = commands.Bot(command_prefix='&')
+client = discord.Client()
 
 print (discord.__version__)
 
@@ -55,4 +56,4 @@ async def embed(ctx):
     embed.add_field(name="This is a field", value="no it isn't", inline=True)
     await bot.say(embed=embed)
 
-bot.run("NDYyMjcyMDcyMjM2NzkzODU2.DhhSCQ.UK_3JEF59C87Ju36Z6dwbFvie9U")
+# client.run("NDYyMjcyMDcyMjM2NzkzODU2.DhhSCQ.UK_3JEF59C87Ju36Z6dwbFvie9U")
