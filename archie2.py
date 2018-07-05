@@ -1,10 +1,11 @@
 import discord
+import asyncio
 from discord.ext.commands import bot
 from discord.ext import commands
 
 Client = discord.Client()
 bot_prefix="?"
-client = commands.Bot(command_prefix=bot_prefix)
+client = commands.Bot(command_prefix="?")
 
 @client.event
 async def on_ready():
