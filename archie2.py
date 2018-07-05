@@ -19,3 +19,5 @@ async def ping(ctx):
 if __name__ == '__main__':
     import config
     client.run(config.token)
+
+# Do not share the token with anyone and less to publish it on GitHub. Use .gitignore files or similar to hide the file that contains the token.
