@@ -56,4 +56,4 @@ async def embed(ctx):
     embed.add_field(name="This is a field", value="no it isn't", inline=True)
     await bot.say(embed=embed)
 
-# client.run("NDYyMjcyMDcyMjM2NzkzODU2.Dh2ULg.1q_9bL0XLirQ8GVb6sa1Y8vgwe0")
+# client.run("")
