@@ -1,4 +1,5 @@
 import discord
+# discord.path.append('C:\Users\victo\Documents\GitHub\discord-bot')
 import asyncio
 from discord.ext.commands import bot
 from discord.ext import commands
