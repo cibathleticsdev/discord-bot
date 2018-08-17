@@ -6,4 +6,4 @@ Archie will be programmed in python because it's easier than C++ and more effect
 ### Which file sould be use?
 archie2.py
 ### EXTRA INFO
-We're having trouble with the python modules, especially discordpy. If you have any information to give us just contact us. Thank you.
+We're having trouble with the python modules, especially discordpy. If you have any information to give us don't hesitate in contact us on discord viktaur#5517. Thank you.
