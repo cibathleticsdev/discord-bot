@@ -19,4 +19,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run(config.token)
+if __name__ == '__main__':
+    import config
+    client.run(config.token)
