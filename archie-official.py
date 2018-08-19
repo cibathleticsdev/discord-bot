@@ -16,15 +16,15 @@ async def on_message(message):
         msg = 'Pong haha'.format(message)
         await client.send_message(message.channel, msg)
 
-    if message.content.startswith('!are u real', '!are you real', '!areureal'):
+    if message.content.startswith('!areureal'):
         msg = 'I am completely real! I have feelings and emotions like you, of course!'.format(message)
         await client.send_message(message.channel, msg)
 
-    if message.content.startswith('!howru', '!how r u', '!how are u', '!how r you', '!how are you'):
+    if message.content.startswith('!howru'):
         msg = 'I\'m fine! Thanks for asking.'.format(message)
         await client.send_message(message.channel, msg)
 
-    if message.content.startswith('!whereru', '!where are you', '!where are u')
+    if message.content.startswith('!whereru'):
         msg = 'I\'m wherever you are, ready to help you.'.format(message)
         await client.send_message(message.channel, msg)
 
