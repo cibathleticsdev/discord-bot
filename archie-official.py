@@ -28,6 +28,20 @@ async def on_message(message):
         msg = 'I\'m wherever you are, ready to help you.'.format(message)
         await client.send_message(message.channel, msg)
 
+    if message.content.startswith('!letswork'):
+        msg = 'Time to work! {0.author.mention}'.format(message)
+        await client.send_message(message.channel, msg)
+
+    if message.content.startswith('!whoru'):
+        msg = 'Did not introduced myself yet? My apologies, I\'m Archie, the official CAD assistant created by us. Nice to meet you {0.author.mention}! You can see the list of commands that you can use by typing !help'.format(message)
+        await client.send_message(message.channel, msg)
+
+
+    #Leave !help always the last one. Please update any changes.
+    if message.content.startswith('!help'):
+        msg = 'Hi there! This are the commands you can use with me so far:\n !help \n !hello \n !ping \n !areureal \n !howru \n !whereru \n !letswork \n !whoru'.format(message)
+        await client.send_message(message.channel, msg)
+
 @client.event
 async def on_ready():
     print('Logged in as')
