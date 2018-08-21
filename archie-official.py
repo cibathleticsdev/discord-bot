@@ -38,7 +38,7 @@ async def on_message(message):
 
     if message.content.startswith('!music'):
         msg = 'Do you now de wae? Trap remix'.format(message)
-        await ctx.send("https://www.youtube.com/watch?v=hLTgQ5SC-PU")
+        await client.send("https://www.youtube.com/watch?v=hLTgQ5SC-PU")
 
     if message.content.startswith('!joke'):
         msg = 'Why cant cats work with a computer? Answer: because they get too distracted chasing the mouse around, haha!'.format(message)
