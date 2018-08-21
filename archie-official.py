@@ -36,10 +36,27 @@ async def on_message(message):
         msg = 'Did not introduced myself yet? My apologies, I\'m Archie, the official CAD assistant created by us. Nice to meet you {0.author.mention}! You can see the list of commands that you can use by typing !help'.format(message)
         await client.send_message(message.channel, msg)
 
+    if message.content.startswith('!music'):
+        msg = 'Do you now de wae? Trap remix'.format(message)
+        await ctx.send("https://www.youtube.com/watch?v=hLTgQ5SC-PU")
+
+    if message.content.startswith('!joke'):
+        msg = 'Why cant cats work with a computer? Answer: because they get too distracted chasing the mouse around, haha!'.format(message)
+        await client.send_message(message.channel, msg)
+
+    if message.content.startswith('!lol'):
+        msg = 'Are you joking?'.format(message)
+        await client.send_message(message.channel, msg)
+
+
+#    if message.content.startswith('!add'):
+#        async def add(ctx, a: int, b: int):
+#        await ctx.send(a+b)
+
 
     #Leave !help always the last one. Please update any changes.
     if message.content.startswith('!help'):
-        msg = 'Hi there! This are the commands you can use with me so far:\n !help \n !hello \n !ping \n !areureal \n !howru \n !whereru \n !letswork \n !whoru'.format(message)
+        msg = 'Hi there! This are the commands you can use with me so far:\n !help \n !hello \n !ping \n !lol \n !joke \n !areureal \n !howru \n !whereru \n !letswork \n !whoru'.format(message)
         await client.send_message(message.channel, msg)
 
 @client.event
