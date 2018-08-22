@@ -1,4 +1,4 @@
-## _ATTENTION, THIS IS A BETA!! Better use cibathleticsdev/archie-bot (https://github.com/cibathleticsdev/archie-bot)_
+### _ATTENTION, THIS IS A BETA!! Better use cibathleticsdev/archie-bot (https://github.com/cibathleticsdev/archie-bot)_
 
 # Say hello to Archie!
 ### Who is Archie?
